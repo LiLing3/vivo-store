@@ -115,14 +115,18 @@ i {
     overflow: hidden;
 }
 .bannerPic{
-    width: 10300px;
+    width: 12800px;
     height: 522px;
     animation: move 30s linear infinite 0s normal;
 }
 .bannerPic li{
-    width: 2060px;
+    width: 2560px;
     height: 522px;
     float: left;
+}
+.bannerPic li img{
+    width: 2560px;
+    height: 522px;
 }
 ul{
     list-style: none;
@@ -180,31 +184,31 @@ ul{
         margin-left: 0px;
     }
     20% {
-        margin-left: -2060px;
+        margin-left: -2560px;
     }
     38% {
-        margin-left: -2060px;
+        margin-left: -2560px;
     }
     40% {
-        margin-left: -4120px;
+        margin-left: -5120px;
     }
     58% {
-        margin-left: -4120px;
+        margin-left: -5120px;
     }
     60% {
-        margin-left: -6180px;
+        margin-left: -7680px;
     }
     78% {
-        margin-left: -6180px;
+        margin-left: -7680px;
     }
     80% {
-        margin-left: -8240px;
+        margin-left: -10240px;
     }
     98% {
-        margin-left: -8240px;
+        margin-left: -10240px;
     }
     100% {
-        margin-left: -10300px;
+        margin-left: -12800px;
     }
 }
 /*专区*/
